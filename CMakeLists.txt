@@ -3,5 +3,5 @@ project(EASy68K)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(EASy68Ksource)
+add_subdirectory(EASy68Ksource)
 
