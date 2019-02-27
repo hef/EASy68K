@@ -41,7 +41,7 @@ int __fastcall getHelpContext(char* str)
   // search for help context in context table
   i = 0;
   do {
-    cmp = strcmpi(str, context[i].name);
+    cmp = strcasecmp(str, context[i].name);
     i++;
   } while (cmp && (i < contextSize));
 
